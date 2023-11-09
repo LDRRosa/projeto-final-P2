@@ -46,7 +46,5 @@ public class menu {
             }
         }
     }
-    public static void cadastraProduto () {
-        
-    }
+   
 }
