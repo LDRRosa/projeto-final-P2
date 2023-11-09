@@ -11,7 +11,7 @@ public class menu {
         while (true) {
             try {
                 System.out.println(
-                        "Escolha uma opção: \n1:Cadastar produto \n2:saida \n3:balanço estoque: \n4:Alterar Produto \n5:Histótico de vendas \n6:Procurar produto");
+                        "Escolha uma opção: \n1:Cadastrar produto \n2:Saída \n3:Balanço estoque: \n4:Alterar Produto \n5:Histórico de vendas \n6:Procurar produto");
                 menu = scanner.nextInt();
 
                 switch (menu) {
