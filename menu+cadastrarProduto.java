@@ -68,6 +68,7 @@ public class menu {
     public static void cadastraProduto() {
         
         String nomedoproduto;
+        System.out.println("============================================");
         System.out.println("Digite o nome do produto");
         nomedoproduto = leia.nextLine();
         String caminhoarquivo = "produtos/"
@@ -77,11 +78,17 @@ public class menu {
             try {
                 // Crie o arquivo
                 Files.createFile(produtopath);
+                System.out.println("============================================");
                 System.out.println("produto cadastrado com sucesso!");
+                System.out.println("============================================");
             } catch (Exception e) {
                 System.err.println("Erro ao criar o arquivo: " + e.getMessage());
             }
             
+        }else{
+            System.out.println("============================================");
+                System.out.println("O produto ja existe!");
+                System.out.println("============================================");
         }
 
     }
